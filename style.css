@@ -45,16 +45,31 @@ width: 150px;
     content:'';
     width: 0%;
     height:2px ;
-    background: #00315a ;
+    background: #ffffff ;
     display: block;
     margin: auto;
-    transition:0.5s;
-    -webkit-transition:0.5s;
-    -moz-transition:0.5s;
-    -ms-transition:0.5s;
-    -o-transition:0.5s;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
-    .nav-links ul li :hover ::after{
+.nav-links ul li:hover::after{
     width: 100%;
-    }
-
+}
+.caja-texto {
+    width: 90%;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    text-align: center;
+}
+.caja-texto h1{
+    font-size: 62px;
+}
