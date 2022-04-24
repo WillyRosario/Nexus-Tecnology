@@ -73,3 +73,6 @@ width: 150px;
 .caja-texto h1{
     font-size: 62px;
 }
+.caja-texto {
+    margin: 10px 0 ;
+}
