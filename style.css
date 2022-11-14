@@ -89,3 +89,12 @@ background: transparent;
 position: relative;
 cursor: pointer;
 }
+.Visitenos:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
